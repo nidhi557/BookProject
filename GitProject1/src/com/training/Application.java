@@ -13,6 +13,8 @@ public class Application {
         {
         	System.out.println(eachItem);
         }
+        Book java= new Book(101,"fault in Our stars");
+        System.out.println(java.getBookName());
 	}
 
 }
